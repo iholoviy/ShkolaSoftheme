@@ -1,0 +1,46 @@
+﻿<Window x:Class="NumericDataTypes_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NumericDataTypes_"
+        mc:Ignorable="d"
+        Title="Data values" Height="350" Width="525">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,-27.6,-245.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="94*"/>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="399*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.067"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <TextBox x:Name="minValue" HorizontalAlignment="Left" Height="24" Margin="119.456,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Grid.Column="2"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="54,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="18" Width="186" Grid.ColumnSpan="3"><Run Text="Choose a numeric data type"/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="120.456,33,0,0" TextWrapping="Wrap" Text="Min Value" VerticalAlignment="Top" Width="186" Grid.Column="2"/>
+        <Button x:Name="quit" Content="Quit" HorizontalAlignment="Left" Margin="214.456,273,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" Grid.Column="2"/>
+        <TextBox x:Name="defValue" HorizontalAlignment="Left" Height="24" Margin="119.456,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Grid.Column="2"/>
+        <TextBlock x:Name="TextBlock1Copy" HorizontalAlignment="Left" Margin="120.456,108,0,0" TextWrapping="Wrap" Text="Default Value" VerticalAlignment="Top" Width="186" Grid.Column="2"/>
+        <TextBox x:Name="maxValue" HorizontalAlignment="Left" Height="24" Margin="119.456,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Grid.Column="2"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="120.456,185,0,0" TextWrapping="Wrap" Text="Max Value" VerticalAlignment="Top" Width="186" Grid.Column="2"/>
+        <ListBox x:Name="type" HorizontalAlignment="Left" Height="241" Margin="26,51,0,0" VerticalAlignment="Top" Width="214" SelectionChanged="listBox_SelectionChanged" Grid.ColumnSpan="3">
+            <ListBoxItem Content="sbyte"/>
+            <ListBoxItem Content="short"/>
+            <ListBoxItem Content="int"/>
+            <ListBoxItem Content="long"/>
+            <ListBoxItem Content="byte"/>
+            <ListBoxItem Content="ushort"/>
+            <ListBoxItem Content="uint"/>
+            <ListBoxItem Content="float"/>
+            <ListBoxItem Content="double"/>
+            <ListBoxItem Content="decimal"/>
+            <ListBoxItem Content="ulong"/>
+        </ListBox>
+
+    </Grid>
+</Window>

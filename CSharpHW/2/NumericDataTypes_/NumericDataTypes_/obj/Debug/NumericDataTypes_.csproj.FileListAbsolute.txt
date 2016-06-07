@@ -1,0 +1,14 @@
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\bin\Debug\NumericDataTypes_.exe.config
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes_.csprojResolveAssemblyReference.cache
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\MainWindow.g.cs
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\App.g.cs
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes__MarkupCompile.cache
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes__MarkupCompile.lref
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\bin\Debug\NumericDataTypes_.exe
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\bin\Debug\NumericDataTypes_.pdb
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\MainWindow.baml
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes_.g.resources
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes_.Properties.Resources.resources
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes_.csproj.GenerateResource.Cache
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes_.exe
+f:\VisualStudio\Projects\NumericDataTypes_\NumericDataTypes_\obj\Debug\NumericDataTypes_.pdb
